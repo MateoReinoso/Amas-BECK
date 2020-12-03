@@ -7,6 +7,11 @@ const routes: Routes = [
   {
     path: 'inicio',
     component: RutaInicioComponent
+  },
+  {
+    path:'',
+    redirectTo: 'inicio',
+    pathMatch: 'full'
   }
 ];
 
