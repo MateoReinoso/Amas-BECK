@@ -14,9 +14,7 @@ import { RutasPrincipales } from './constantes/rutas-principales';
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
-  providers: [
-
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
