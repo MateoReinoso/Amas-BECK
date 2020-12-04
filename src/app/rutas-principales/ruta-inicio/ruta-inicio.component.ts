@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrls:['./ruta-inicio.component.scss']    
 })
 export class RutaInicioComponent{
-    titulo:string = 'hola mundo'
+    
 }
