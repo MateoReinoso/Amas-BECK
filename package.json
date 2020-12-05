@@ -32,6 +32,7 @@
     "@angular/platform-browser-dynamic": "~9.0.2",
     "@angular/platform-server": "~9.0.2",
     "@angular/router": "~9.0.2",
+    "@material/dialog": "^8.0.0",
     "@nguniversal/builders": "^9.0.2",
     "@nguniversal/express-engine": "^9.0.2",
     "@types/express": "^4.17.0",
