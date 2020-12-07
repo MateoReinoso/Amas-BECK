@@ -15,7 +15,7 @@ export class RutaInicioComponent {
 
     abrirModal() {
         const opcionesModal: MatDialogConfig = {
-            disableClose: true,
+            //disableClose: true,
             height: '450px',
             width: '900px',
         }
