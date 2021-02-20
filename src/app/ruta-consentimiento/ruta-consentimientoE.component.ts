@@ -1,4 +1,6 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+
+
 
 @Component({
     selector: "ruta-consentimiento",
@@ -6,6 +8,5 @@ import { Component } from "@angular/core";
     styleUrls: ["./ruta-consentimientoE.component.scss"]
 })
 
-export class RutaConsentimientoEComponent{
-
+export class RutaConsentimientoEComponent {
 }
