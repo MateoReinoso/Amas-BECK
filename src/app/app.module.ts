@@ -7,20 +7,21 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.coomponent';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialogModule} from '@angular/material/dialog';
-import {DividerModule} from 'primeng/divider';
+import { DividerModule } from "primeng/divider";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ...RutasPrincipales
+    ...RutasPrincipales    
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     MatDialogModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
