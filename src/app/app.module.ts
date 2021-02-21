@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.coomponent';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialogModule} from '@angular/material/dialog';
 import { DividerModule } from "primeng/divider";
+import { ButtonModule } from "primeng/button";
+import { SplitterModule } from "primeng/splitter";
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { DividerModule } from "primeng/divider";
     AppRoutingModule,
     MatDialogModule,
     BrowserAnimationsModule,
-    DividerModule
+    DividerModule,
+    SplitterModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
