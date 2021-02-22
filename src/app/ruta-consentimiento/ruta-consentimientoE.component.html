@@ -5,26 +5,61 @@
         <br>
         <div class="row p-4">
             <div class="col-lg-6">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste placeat ea quia, deleniti obcaecati
-                    cupiditate consectetur eligendi laudantium asperiores debitis sed dicta repellendus at nemo repellat
-                    quam? Facilis, sunt. Error?
-                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@upe.edu.ec">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Género</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Hombre</option>
+                            <option>Mujer</option>
+                            <option>Prefiero no decirlo</option>
+                        </select>
+                    </div>
+                </form>
             </div>
             <div class="col-lg-6">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste placeat ea quia, deleniti obcaecati
-                    cupiditate consectetur eligendi laudantium asperiores debitis sed dicta repellendus at nemo repellat
-                    quam? Facilis, sunt. Error?
-                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Seleccionar Carrera</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Administración Publica</option>
+                            <option>Comercio Exterior</option>
+                            <option>Agropecuaria</option>
+                            <option>Alimentos</option>
+                            <option>Enfermeria</option>
+                            <option>Turismo</option>
+                            <option>Logística y Transporte</option>
+                            <option>Computación</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Semestre</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Primer Semestre</option>
+                            <option>Segundo Semestre</option>
+                            <option>Tercer Semestre</option>
+                            <option>Cuarto Semestre</option>
+                            <option>Quinto Semestre</option>
+                            <option>Sexto Semestre</option>
+                            <option>Séptimo Semestre</option>
+                            <option>Octavo Semestre</option>
+                            <option>Noveno Semestre</option>
+                            <option>Decimo Semestre</option>
+                        </select>
+                    </div>
+                </form>
             </div>
         </div>
         <br>
         <hr>
-        
+
         <br>
         <div class="centrado">
-            <button (click)="encuesta(35)" class="button button-block button-positive"  style="width:250px;">
+            <button (click)="encuesta(42)" class="button btn btn-secondary" style="width:250px;">
                 Realizar Encuesta
             </button>
         </div>

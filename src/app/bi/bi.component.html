@@ -17,14 +17,27 @@
     </nav>
     <div class="row p-4">
         <div class="col-lg-8">
-            <img class="img-fluid" src="../../../assets/poster-tour.jpg" alt="" width="450%" height="450%">
+            <img class="img-fluid" src="../../../assets/poster-tour.jpg" alt="" width="400%" height="450%">
         </div>
         <div class="col-lg-4">
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste placeat ea quia, deleniti obcaecati
-                cupiditate consectetur eligendi laudantium asperiores debitis sed dicta repellendus at nemo repellat
-                quam? Facilis, sunt. Error?
-            </p>
+            <div class="login">
+                <form class="custom-form">
+                  <h1>Login</h1>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="USUARIO"
+                    required="required"
+                  />
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="CONTRASEÑA"
+                    required="required"
+                  />
+                  <button (click)="resulados()">Ingresar</button>
+                </form>
+              </div>
         </div>
     </div>
 </div>

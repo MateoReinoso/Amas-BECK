@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
    selector: "bi",
@@ -6,6 +7,9 @@ import { Component } from "@angular/core";
    styleUrls: ["./bi.component.scss"]
 })
 
-export class BiComponent{
-    
+export class BiComponent {
+   constructor(private router: Router) { }
+   resulados() {
+      this.router.navigate(['/', 'resultados']);
+   }
 }

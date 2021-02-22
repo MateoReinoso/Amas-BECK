@@ -41,7 +41,7 @@ const routes: Routes = [
   },
   {
     path: 'resultados',
-    component: RutaResultadosComponent, canActivate: [LoginGuard]
+    component: RutaResultadosComponent
   }
 ];
 
