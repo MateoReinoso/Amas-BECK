@@ -5,28 +5,88 @@
         <br>
         <div class="row p-4">
             <div class="col-lg-6">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste placeat ea quia, deleniti obcaecati
-                    cupiditate consectetur eligendi laudantium asperiores debitis sed dicta repellendus at nemo repellat
-                    quam? Facilis, sunt. Error?
-                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@upe.edu.ec">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Género</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Hombre</option>
+                            <option>Mujer</option>
+                            <option>Prefiero no decirlo</option>
+                        </select>
+                    </div>
+                </form>
             </div>
             <div class="col-lg-6">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste placeat ea quia, deleniti obcaecati
-                    cupiditate consectetur eligendi laudantium asperiores debitis sed dicta repellendus at nemo repellat
-                    quam? Facilis, sunt. Error?
-                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Unidad de Trabajo</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>ADMISION Y REGISTRO</option>
+                            <option>BIBLIOTECA</option>
+                            <option>BIENESTAR UNIVERSITARIO</option>
+                            <option>BODEGA</option>
+                            <option>CENTRO DE CULTURA FÍSICA Y ESTÉTICA</option>
+                            <option>CENTRO DE INVESTIGACIÓN Y TRANSFERENCIA TECNOLOGICA</option>
+                            <option>CENTRO DE TICS</option>
+                            <option>CONTABILIDAD GENERAL</option>
+                            <option>DESARROLLO DE SOFTWARE</option>
+                            <option>DIRECCIÓN ACADÉMICA</option>
+                            <option>DIRECCIÓN ADMINISTRATIVA</option>
+                            <option>DIRECCIÓN DE ASEGURAMIENTO DE LA CALIDAD</option>
+                            <option>DIRECCIÓN DE INFRAESTRUCTURA FÍSICA Y MANTENIMIENTO</option>
+                            <option>DIRECCIÓN DE INVESTIGACIÓN</option>
+                            <option>DIRECCION FINANCIERA</option>
+                            <option>DIRECCIÓN DE VINCULACIÓN</option>
+                            <option>FINCA EXPERIMENTAL</option>
+                            <option>JEFATURA DE ADQUISICIONES</option>
+                            <option>JEFATURA DE BODEGA</option>
+                            <option>JEFATURA DE COMUNICACIONES A EDITAR</option>
+                            <option>JEFATURA DE LABORATORIO</option>
+                            <option>JEFATURA DE TALENTO HUMANO</option>
+                            <option>PLANIFICACIÓN Y DESARROLLO INSTITUCIONAL</option>
+                            <option>PROCURADURÍA</option>
+                            <option>PUBLICACIONES</option>
+                            <option>REDES Y TELECOMUNICACIONES</option>
+                            <option>SALUD Y CALIDAD DE VIDA</option>
+                            <option>SECRETARIA GENERAL</option>
+                            <option>SERVICIOS</option>
+                            <option>SOPORTE TÉCNICO</option>
+                            <option>TESORERÍA</option>
+                            <option>VICERRECTORADO</option>
+                            <option>ASISTENTE DE CARRERA</option>
+                            <option>DECANATO</option>
+                            <option>COMPUTACIÓN</option>
+                            <option>TURISMO</option>
+                            <option>AGROPECUARIA</option>
+                            <option>COMERCIO EXTERIOR</option>
+                            <option>ENFERMERIA</option>
+                            <option>ALIMENTOS</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Título</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Segundo Nivel</option>
+                            <option>Tercer Nivel</option>
+                            <option>Cuarto Nivel</option>
+                        </select>
+                    </div>
+                </form>
             </div>
         </div>
         <br>
         <hr>
+
         <br>
         <div class="centrado">
-            <button class="button button-block button-positive" ng-click="facebookLogin()" style="width:250px;">
-                <i class="icon ion-social-facebook"></i>
-                &nbsp;Continuar con facebook
+            <button (click)="irEncuesta()"  class="button btn btn-secondary" style="width:250px;">
+                Realizar Encuesta
             </button>
         </div>
     </div>
-</div>
+</div>"

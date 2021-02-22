@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
     selector: "ruta-consentimientoP",
@@ -7,5 +8,9 @@ import { Component } from "@angular/core";
 })
 
 export class RutaConsentimientoPAComponent{
+    constructor(private router:Router){}
 
+    irEncuesta(){
+        this.router.navigate(['/','encuestapa']);
+    }
 }
