@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { BiComponent } from './bi/bi.component';
 import { LoginGuard } from './login.guard';
 import { RutaConsentimientoEComponent } from './ruta-consentimiento/ruta-consentimientoE.component';
 import { RutaConsentimientoPAComponent } from './ruta-consentimientoP/ruta-consentimientoPA.component';
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'categorias',
     component: RutaSecundariaComponent
+  },
+  {
+    path: 'login',
+    component: BiComponent
   },
   {
     path: 'consentimientoestudiante',
