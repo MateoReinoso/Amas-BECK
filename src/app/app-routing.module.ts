@@ -7,6 +7,7 @@ import { RutaConsentimientoEComponent } from './ruta-consentimiento/ruta-consent
 import { RutaConsentimientoPAComponent } from './ruta-consentimientoP/ruta-consentimientoPA.component';
 import { RutaEncuestaEComponent } from './ruta-encuestaE/ruta-encuestaE.component';
 import { RutaEncuestaPAComponents } from './ruta-encuestaPA/ruta-encuestaPA.component';
+import { RutaFinalComponent } from './ruta-final/ruta-final.component';
 import { RutaResultadosComponent } from './ruta-resultados/ruta-resultado.component';
 import { RutaInicioComponent } from './rutas-principales/ruta-inicio/ruta-inicio.component';
 import { RutaSecundariaComponent } from './rutas-secundarias/ruta-secundaria.component';
@@ -52,6 +53,10 @@ const routes: Routes = [
   {
     path: 'beck',
     component: RutaBeckComponent
+  },
+  {
+    path: 'final',
+    component: RutaFinalComponent
   }
 ];
 
