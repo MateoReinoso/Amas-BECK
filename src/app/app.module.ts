@@ -10,7 +10,9 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { DividerModule } from "primeng/divider";
 import { ButtonModule } from "primeng/button";
 import { SplitterModule } from "primeng/splitter";
-
+import { FormsModule } from '@angular/forms';
+import { LoginGuard } from './login.guard';
+import { ReactiveFormsModule} from '@angular/forms' 
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,9 +27,11 @@ import { SplitterModule } from "primeng/splitter";
     BrowserAnimationsModule,
     DividerModule,
     SplitterModule,
-    ButtonModule
+    ButtonModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [LoginGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

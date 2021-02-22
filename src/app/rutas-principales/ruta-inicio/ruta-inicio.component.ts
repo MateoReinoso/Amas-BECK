@@ -18,8 +18,4 @@ export class RutaInicioComponent {
     return this._router.navigate(['/', 'categorias'])
   }
 
-  irLogin(){
-    return this._router.navigate(['/', 'login'])
-  }
-
 }
