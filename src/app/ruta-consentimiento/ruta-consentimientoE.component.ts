@@ -1,7 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 
-
-
 @Component({
     selector: "ruta-consentimiento",
     templateUrl: "./ruta-consentimientoE.component.html",
