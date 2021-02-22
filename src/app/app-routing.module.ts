@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BiComponent } from './bi/bi.component';
 import { LoginGuard } from './login.guard';
+import { RutaBeckComponent } from './ruta-beck/ruta-beck.component';
 import { RutaConsentimientoEComponent } from './ruta-consentimiento/ruta-consentimientoE.component';
 import { RutaConsentimientoPAComponent } from './ruta-consentimientoP/ruta-consentimientoPA.component';
 import { RutaEncuestaEComponent } from './ruta-encuestaE/ruta-encuestaE.component';
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path: 'encuestapa',
     component: RutaEncuestaPAComponents
+  },
+  {
+    path: 'beck',
+    component: RutaBeckComponent
   }
 ];
 

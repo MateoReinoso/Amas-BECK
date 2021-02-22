@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
     selector: "ruta-encuestaE",
@@ -6,6 +7,10 @@ import { Component } from "@angular/core";
     styleUrls: ["./ruta-encuestaE.component.scss"]
 })
 
-export class RutaEncuestaEComponent{
-    
+export class RutaEncuestaEComponent {
+    constructor(private router: Router) { }
+
+    irBeck() {
+        this.router.navigate(['/', 'beck']);
+    }
 }
